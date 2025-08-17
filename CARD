@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip card</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 550px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            padding: 0px;
+
+
+        }
+
+        h3 {
+            font-family: 'segoe ui', sans-serif;
+            font-size: 1.8em;
+            color: #333;
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .Container {
+            font-family: 'IBM Plex Serif', serif;
+            text-align: left;
+            -webkit-text-fill-color: rgb(34, 96, 150);
+            font-size: 1.2em;
+            line-height: 1.2;
+            position: relative;
+            top: 1px;
+            padding : 0px;
+        }
+        .read {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 1em;
+            background-color: rgb(179, 216, 216);
+            width: 100px;
+            display: inline-block;
+            text-align: center;
+            color: #369eb2;
+            cursor: pointer; 
+            border-color: rgb(60, 151, 150);
+            border-width: 3px;
+            border-radius: 100px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            position: relative;
+            left: 0px   ;
+            top: 20px;
+        }
+        .read:hover {
+            background-color: rgb(18, 144, 144);
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        .point {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 1em;
+            color: #a6aeb7;
+            background-color: #f0f0f0;
+            padding: 3px;
+            border-radius: 10px;
+            margin: 5px 0;
+            display: inline-block;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            top: 10px;
+            right: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="trip.jpeg">
+        <div class="point">Landscape</div>
+        <div class="point">Adventure</div>
+        <h3>Trip Card</h3>
+        <div class="Container">
+            <p>Welcome to your trip card! Here you can find all the details about your upcoming trip.  This card is designed to help you stay
+                organized and make the most of your trip.
+                Enjoy your journey!</p>
+        </div>
+        <div class="read">
+            read more
+        </div>
+
+    </div>
+</body>
+
+</html>
